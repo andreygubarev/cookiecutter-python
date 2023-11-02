@@ -1,4 +1,10 @@
 {
     "name": "",
-    "python_version": "3.11"
+    "description": "",
+    "author_name": "",
+    "author_email": "",
+    "github_username": "",
+    "github_repository": "",
+    "python_version": "3.11",
+    "license": "MIT"
 }

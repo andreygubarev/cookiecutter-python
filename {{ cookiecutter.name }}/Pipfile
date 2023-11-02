@@ -6,6 +6,13 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+build = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+flake8 = "*"
+black = "*"
+isort = "*"
 
 [requires]
 python_version = "{{ cookiecutter.python_version }}"
