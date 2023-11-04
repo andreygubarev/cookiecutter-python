@@ -29,3 +29,11 @@ exclude = ["tests"]
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 addopts = "--cov --cov-report term-missing"
+
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "test"]
+honor_noqa = true
