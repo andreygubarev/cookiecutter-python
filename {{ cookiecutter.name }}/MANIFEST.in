@@ -5,4 +5,4 @@ exclude Makefile
 
 exclude tests/**/*
 exclude .flake8 .pre-commit-config.yaml
-exclude pyproject.toml Pipfile Pipfile.lock MANIFEST.in
+exclude Pipfile Pipfile.lock MANIFEST.in
