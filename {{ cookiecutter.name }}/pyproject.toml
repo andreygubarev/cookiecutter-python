@@ -20,6 +20,10 @@ dependencies = []
 [project.urls]
 Homepage = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repository }}/"
 
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests"]
+
 [tool.setuptools_scm]
 
 [tool.pytest.ini_options]
